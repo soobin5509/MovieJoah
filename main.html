@@ -3,21 +3,44 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title> MovieJoah</title>
+		<style type="text/css">
+			#main_screen		{width:1000px; border:1px solid #000; margin:0 auto; padding:0 20px 0 20px;}
+			#top img			{width:100px; height:50px; padding: 10px 20px 0 0;}
+			#top ul			{display:inline;}
+			#top ul li			{display:inline; font-size:15px; border-left:1px solid #000; padding: 10px 20px 0 20px;}
+			#top ul li:first-child {border-left:none;}
+			#leftside			{float:left; border:1px solid #000; text-align:center; font-size:40px;}
+			#content			{float:left; border:1px solid #000; text-align:center;}
+			#rightside			{float:right; border:1px solid #000; text-align:center; font-size:40px;}
+			#footer			{clear:both;}
+		</style>
 	</head>		
 	<body>
-		<div id="mainscreen">
-			<ul>
-				<li><a href="main.html"><img src="./image/main.jpg" alt="main"/></a></li>
-				<li><a href="#">검색</a></li>
-				<li><a href="#">업로드</a></li>
-				<li><a href="#">장바구니</a></li>
-				<li><a href="#">회원가입</a></li>
-				<li><a href="#">로그인</a></li>
-			</ul>
-		</div>
-		<hr/>
-		<div>
-			
+		<div id="main_screen">
+			<div id="top">
+				<div id="top_leftside">
+					<a href="main.html"><img src="./image/main.jpg" alt="main"/></a>
+				</div>
+					<li><a href="#">검색</a></li>
+					<li><a href="#">업로드</a></li>
+					<li><a href="#">장바구니</a></li>
+					<li><a href="#">회원가입</a></li>
+					<li><a href="#">로그인</a></li>
+				</ul>
+			</div>
+			<div>
+				<div>
+					<div id="leftside">
+						&lt
+					</div>
+					<div id="content">
+						<img src="./image/content.jpg" alt="content"/>
+					</div>
+					<div id="rightside">
+						&gt
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
