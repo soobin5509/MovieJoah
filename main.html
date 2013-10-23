@@ -3,21 +3,156 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<title> MovieJoah</title>
+		<style type="text/css">
+			#main_screen		{width:1000px; border:1px solid #000; margin:0 auto; padding:10px 20px 0 20px;}
+			#top_leftside img	{text-align:left; width:100px; height:50px;}
+			#top_leftside		{float:left; width:100px; height:50px;}
+			#top_content		{float:left; text-align:left; width:600px; height:50px;}
+			#top_content li	{display:inline; font-size:15px; border-left:1px solid #000; padding: 10px 20px 0 20px;}
+			#top_content li:first-child{border-left:none;}
+			#top_rightside	{float:right; text-align:right; width:294px; height:40px; padding:10px 0 0 0;}
+			#leftside			{float:left; Background-color:#d3d3d3; padding:120px 0 0 0; width:100px; height:180px; text-align:center; font-size:40px;}
+			.contentside		{text-align:center; float:left; Background-color:#d3d3d3; width:200px; height:300px;}
+			.contentside img	{padding:49px 0 49px 0; width:150px; height:200px;}
+			#rightside			{float:right; Background-color:#d3d3d3; padding:120px 0 0 0; width:100px; height:180px; text-align:center; font-size:40px;}
+			.leftblank			{float:left; padding:298px 98px 0 0;}
+			.contentside_sec	{text-align:center; float:left; width:200px; height:300px;}
+			.contentside_sec img	{padding:49px 0 49px 0; width:150px; height:200px;}
+			.rightblank		{float:right; padding:298px 98px 0 0;}
+			.footer_leftblank	{float:left; padding:45px 98px 0 0;}
+			#service			{float:left;}
+			#service li		{display:inline; font-size:15px; padding:20px 35px 10px 35px;}
+			.footer_rightblank{float:right; padding:45px 98px 0 0;}
+			#footer_first		{float:left; text-align:center; border-top:10px solid #d3d3d3; font-size:13px; padding:10px 5px 10px 5px; width:190px;}
+			#footer_second	{float:left; font-size:13px; border-top:10px solid #d3d3d3; padding:10px 5px 10px 5px; width:330px;}
+			#footer_third		{float:left; font-size:15px; border-top:10px solid #d3d3d3; padding:40px 5px 10px 5px; width:250px;}
+			.both				{clear:both;}
+			
+		</style>
 	</head>		
 	<body>
-		<div id="mainscreen">
-			<ul>
-				<li><a href="main.html"><img src="./image/main.jpg" alt="main"/></a></li>
-				<li><a href="#">검색</a></li>
-				<li><a href="#">업로드</a></li>
-				<li><a href="#">장바구니</a></li>
-				<li><a href="#">회원가입</a></li>
-				<li><a href="#">로그인</a></li>
-			</ul>
-		</div>
-		<hr/>
-		<div>
-			
-		</div>
+		<form action="#" method="post"/>
+			<div id="main_screen">
+				<div id="top">
+					<div id="top_leftside">
+						<a href="./main.html"><img src="./image/main.jpg" alt="main"/></a>
+					</div>
+					<div id="top_content">
+						<ul>
+							<li><a href="#">검색</a></li>
+							<li><a href="#">업로드</a></li>
+							<li><a href="#">장바구니</a></li>
+							<li><a href="#">회원가입</a></li>
+							<li><a href="#">로그인</a></li>
+						</ul>
+					</div>
+					<div id = "top_rightside">
+						<input type="text" class="span2 search-query">
+						<button type="submit" class="btn">Search</button>
+					</div>
+				</div>
+				<div class="both">
+					<div >
+						<div id="leftside">
+							<a href = "#"> &lt </a>
+						</div>
+						<div class="contentside">
+							<img src="./image/content1.jpg" alt="content1"/>
+						</div>
+						<div class="contentside">
+							<img src="./image/content2.jpg" alt="content2"/>
+						</div>
+						<div class="contentside">
+							<img src="./image/content3.jpg" alt="content3"/>
+						</div>
+						<div class="contentside">
+							<img src="./image/content4.jpg" alt="content4"/>
+						</div>
+						<div id="rightside">
+							<a href = "#"> &gt </a>
+						</div>
+					</div>
+				</div>
+				<div class="both">
+					<div class = "leftblank">
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content5.jpg" alt = "content5"/>
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content6.jpg" alt = "content6"/>
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content7.jpg" alt = "content7"/>
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content8.jpg" alt = "content7"/>
+					</div>
+					<div class = "rightblank">
+					</div>
+				</div>
+				<div class="both">
+					<div class = "leftblank">
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content9.jpg" alt = "content9"/>
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content10.jpg" alt = "content10"/>
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content11.jpg" alt = "content11"/>
+					</div>
+					<div class = "contentside_sec">
+						<img src = "./image/content12.jpg" alt = "content12"/>
+					</div>
+					<div class = "rightblank">
+					</div>
+				</div>
+				<div class="both">
+					<div class = "footer_leftblank">
+					</div>
+					<div id = "service">
+						<ul>
+							<li><a href = "#">회사소개</a></li>
+							<li><a href = "#">이용약관</a></li>
+							<li><a href = "#">개인정보취급방침</a></li>
+							<li><a href = "#">영화가이드</a></li>
+							<li><a href = "./main.html">T O P</a></li>
+						</ul>
+					</div>
+					<div class = "footer_rightblank">
+					</div>
+				</div>
+				<div class="both">
+					<div class = "footer_leftblank">
+					</div>
+					<div id = "footer_first">
+						<img src="./image/main.jpg" alt="main"/>
+						<ul>
+							작성자<br/>
+							<li>손수빈 60092398</li>
+							<li>김용준 60102314</li>
+							<li>권유진 60122382</li>
+							<li>김정은 60122382</li>
+							<li>김현아 60122409</li>
+							<li>이하연 60122886</li>
+						</ul>
+					</div>
+					<div id = "footer_second">
+						<h4>상호명:Movie Joah 대표자: 전 종 훈 교수님</h4><br/>
+						<p>주소 : 경기도 용인시 처인구 남동산 38-1 명지대학교</p>
+						<p>대표번호 : 010-8749-5509(조장 손수빈)</p>
+					</div>
+					<div id = "footer_third">
+						<span>※Movie Joah에서 사용된 모든 일러스트, 그래픽이미지와 내용의 무단 도용을 금합니다.</span>
+					</div>
+					<div class = "footer_rightblank">
+					</div>
+				</div>
+				<div class="both">
+				</div>
+			</div>
+		</form>
 	</body>
 </html>
